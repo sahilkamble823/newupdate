@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color:indigo;
+  color: #0D47A1;
 }
 
 a:hover {
@@ -32,6 +32,11 @@ p {
 
 /*--------------------------------------------------------------
 # Back to top button
+ #0D47A1  (1)
+ #0D47A1  (2)
+ #0D47A1 (3)
+#0D47A1 (4)
+
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -40,8 +45,8 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  /* background:indigo; */
-  background: indigo;
+  /* background: #0D47A1; */
+  background:  #0D47A1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -82,14 +87,14 @@ p {
 }
 
 #topbar .contact-info a:hover {
-  /* color:indigo; */
+  /* color: #0D47A1; */
   color: rgb(144, 49, 212);
 }
 
 #topbar .contact-info i {
 
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
   line-height: 0;
   margin-right: 15px;
 }
@@ -107,12 +112,12 @@ p {
 }
 
 #topbar .social-links a:hover {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 #topbar .topbar text {
-  /* color:indigo; */
+  /* color: #0D47A1; */
   color: white;
 }
 
@@ -142,8 +147,8 @@ p {
 }
 
 #header .logo a {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 #header .logo img {
@@ -268,36 +273,36 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color:indigo;
+  color: #0D47A1;
   font-weight: bold;
-  /* color:indigo;
+  /* color: #0D47A1;
 
 } */
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 4px;
-  /* border: 2px solidindigo; */
-  border: 2px solidindigo;
+  /* border: 2px solid #0D47A1; */
+  border: 2px solid #0D47A1;
   transition: 0.3s;
   font-size: 14px;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  /* background:indigo; */
-  background:indigo;
+  /* background: #0D47A1; */
+  background: #0D47A1;
   color: #fff;
 }
 
 .navbar .btn-get-started {
   color: #fff;
-  background:indigo;
+  background: #0D47A1;
 }
 
 .navbar .btn-get-started,
@@ -307,8 +312,8 @@ p {
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 4px;
-  /* border: 2px solidindigo; */
-  border: 2px solidindigo;
+  /* border: 2px solid #0D47A1; */
+  border: 2px solid #0D47A1;
   transition: 0.3s;
   font-size: 14px;
 
@@ -319,7 +324,7 @@ p {
 
 .navbar .btn-get-started:hover {
   color: #fff;
-  background:indigo;
+  background: #0D47A1;
 }
 
 .navbar .dropdown ul {
@@ -354,8 +359,8 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -454,8 +459,8 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 .navbar-mobile .getstarted,
@@ -490,8 +495,8 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -504,7 +509,7 @@ p {
 #hero {
   width: 100%;
   height: 60vh;
-  background: linear-gradient(-90deg, white,indigo);
+  background: linear-gradient(-90deg, white, #0D47A1);
   overflow: hidden;
   position: relative;
 }
@@ -646,7 +651,7 @@ p {
   line-height: 1;
   color: #fff;
   animation-delay: 0.8s;
-  /* background:indigo; */
+  /* background: #0D47A1; */
   /* background: white; */
   background: #6675e8;
   line-height: 1.5;
@@ -655,7 +660,7 @@ p {
 #hero .btn-get-started:hover {
   /* background: #6ec083; */
   /* background: white; */
-  /* background:indigo; */
+  /* background: #0D47A1; */
 
 
 }
@@ -762,7 +767,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background:indigo;
+  background: #0D47A1;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -793,8 +798,8 @@ section {
 }
 
 .featured-services .icon i {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
   font-size: 42px;
 }
 
@@ -810,8 +815,8 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 .featured-services .description {
@@ -840,8 +845,8 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  /* color:indigo; */
-  color:indigo;
+  /* color: #0D47A1; */
+  color: #0D47A1;
 }
 
 .about .content p:last-child {
@@ -987,12 +992,12 @@ section {
 }
 
 .blog-details .sidebar .search-form form button:hover {
-  background:indigo;
+  background: #0D47A1;
 }
 
 
 .contact .php-email-form button[type=submit] {
-  background:indigo;
+  background: #0D47A1;
   color: gray;
   border: 0;
   padding: 10px 30px;
@@ -1005,7 +1010,7 @@ section {
 }
 
 .blog-details .sidebar .search-form form {
-  background:indigo;
+  background: #0D47A1;
   border: 1px solid gray;
   padding: 3px 10px;
   position: relative;
@@ -1025,7 +1030,7 @@ section {
 }
 
 .blog-details .sidebar .search-form form button {
-  background:indigo;
+  background: #0D47A1;
   color: grey;
   position: absolute;
   top: 0;
@@ -1071,7 +1076,7 @@ section {
   font-size: 24px;
   font-weight: 400;
   /* color: #6ec083; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .why-us .content-item h4 {
@@ -1116,11 +1121,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solidindigo;
+  border: 1px solid #0D47A1;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:indigo;
+  background-color: #0D47A1;
 }
 
 /*--------------------------------------------------------------
@@ -1160,7 +1165,7 @@ section {
 .services .icon-box .icon svg path {
   transition: 0.5s;
   /* fill: #f5f5f5; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 .services .icon-box h4 {
@@ -1182,103 +1187,103 @@ section {
 
 /* .services .icon-box:hover { */
 /* border-color: #fff; */
-/* border-color:indigo;
+/* border-color: #0D47A1;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 } */
 
 .services .iconbox-blue i {
-  color:indigo
+  color: #0D47A1
 }
 
 .services .iconbox-blue:hover .icon i {
   /* color: #fff; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-blue:hover .icon path {
   /* /fill: #47aeff; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 .services .iconbox-orange i {
   /* color: #ffa76e; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-orange:hover .icon i {
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-orange:hover .icon path {
   /* fill: #ffa76e; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 .services .iconbox-pink i {
   color: #e80368;
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-pink:hover .icon i {
   /* color: #fff; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-pink:hover .icon path {
   /* fill: #e80368; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-yellow i {
   /* color: #ffbb2c; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-yellow:hover .icon i {
   /* color: #fff; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-yellow:hover .icon path {
   /* fill: #ffbb2c; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 .services .iconbox-red i {
   /* color: #ff5828; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-red:hover .icon i {
   /* color: #fff; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-red:hover .icon path {
   /* fill: #ff5828; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 .services .iconbox-teal i {
   /* color: #11dbcf; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-teal:hover .icon i {
   /* color: #fff; */
-  color:indigo;
+  color: #0D47A1;
 }
 
 .services .iconbox-teal:hover .icon path {
   /* fill: #11dbcf; */
-  fill:indigo;
+  fill: #0D47A1;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background:indigo;
+  background: #0D47A1;
   padding: 80px 0;
 }
 
@@ -1310,7 +1315,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color:indigo;
+  color: #0D47A1;
 }
 
 @media (max-width: 1024px) {
@@ -1446,7 +1451,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background:indigo;
+  background: #0D47A1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1559,11 +1564,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solidindigo;
+  border: 1px solid #0D47A1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:indigo;
+  background-color: #0D47A1;
 }
 
 .portfolio-details .portfolio-info {
@@ -1649,7 +1654,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color:indigo;
+  color: #0D47A1;
 }
 
 .team .member .social i {
@@ -1661,8 +1666,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solidindigo;
-  border-bottom: 3px solidindigo;
+  border-top: 3px solid #0D47A1;
+  border-bottom: 3px solid #0D47A1;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1671,7 +1676,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color:indigo;
+  color: #0D47A1;
   float: left;
   width: 44px;
   height: 44px;
@@ -1718,21 +1723,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background:indigo;
+  background: #0D47A1;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background:indigo;
+  background: #0D47A1;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solidindigo;
-  border-bottom: 3px solidindigo;
+  border-top: 3px solid #0D47A1;
+  border-bottom: 3px solid #0D47A1;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1758,7 +1763,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background:indigo;
+  background: #0D47A1;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1778,7 +1783,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solidindigo;
+  border: 3px solid #0D47A1;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1793,7 +1798,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color:indigo;
+  border-color: #0D47A1;
 }
 
 .contact .php-email-form input {
@@ -1805,7 +1810,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background:indigo;
+  background: #0D47A1;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1840,7 +1845,7 @@ section {
   margin-top: 30px;
   color: #fff;
   width: 100%;
-  background: linear-gradient(-90deg, white,indigo);
+  background: linear-gradient(-90deg, white, #0D47A1);
   overflow: hidden;
   position: relative;
 }
@@ -1942,7 +1947,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   /* color: #5fcf80; */
-  color:indigo;
+  color: #0D47A1;
   font-size: 18px;
   line-height: 1;
 }
@@ -2007,7 +2012,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background:indigo;
+  background: #0D47A1;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2015,7 +2020,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background:indigo;
+  background: #0D47A1;
 }
 
 #footer .credits {
@@ -2036,7 +2041,7 @@ section {
   font-size: 18px;
   display: inline-block;
   /* background: #5fcf80; */
-  background:indigo;
+  background: #0D47A1;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2581,7 +2586,7 @@ section {
 
 .blog-details .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color:indigo;
+  border-color: #0D47A1;
 }
 
 .blog-details .comments .reply-form .form-group {
@@ -2592,7 +2597,7 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color:indigo;
+  background-color: #0D47A1;
   color: white;
 }
 
@@ -2623,7 +2628,7 @@ input {
 }
 
 
- button {
+ .container  button {
   padding: 8px;
   border-radius: 10px;
   margin-top: 20px;
@@ -2632,7 +2637,7 @@ input {
   color: white;
   cursor: pointer;
   width: 40%;
-  background-color: indigo;
+  background-color:  #0D47A1;
   font-size: 16px;
 }
 
