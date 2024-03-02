@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: rgb(144, 49, 212);
+    color: #3e74c5;
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ p {
 
 .back-to-top:hover {
   /* background: #78c48c; */
-  color: rgb(144, 49, 212);
+    color: #3e74c5;
 }
 
 .back-to-top.active {
@@ -88,7 +88,7 @@ p {
 
 #topbar .contact-info a:hover {
   /* color: #0D47A1; */
-  color: rgb(144, 49, 212);
+    color: #3e74c5;
 }
 
 #topbar .contact-info i {
@@ -709,7 +709,7 @@ p {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .section-bg {
@@ -1133,7 +1133,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 20px 20px 30px 20px;
   /* transition: all ease-in-out 0.3s; */
   background: #fff;
   /* box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1); */
@@ -1819,7 +1819,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgb(144, 49, 212);
+  /* background: rgb(144, 49, 212); */
+  background-color: #3e74c5;
 }
 
 @keyframes animate-loading {
@@ -1886,7 +1887,8 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: rgb(144, 49, 212);
+    /* color: #3e74c5; */
+    color: #fff;
   content: "/";
 }
 
@@ -1971,7 +1973,8 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: rgb(144, 49, 212);
+  /*   color: #3e74c5; */
+  color: #3e74c5;
   /* color: #5fcf80; */
 }
 
@@ -2603,7 +2606,7 @@ section {
 
 .blog-details .comments .reply-form .btn-primary:hover {
   color: black;
-  background-color: rgb(144, 49, 212);
+  background-color: #3e74c5;
 }
  
 label {
