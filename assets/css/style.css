@@ -154,9 +154,15 @@ p {
 #header .logo img {
   max-height: 40px;
 }
+#header .logom{
+  align-items: center;
+  color: #0D47A1;
+  position: absolute;
+}
 
 .scrolled-offset {
   margin-top: 70px;
+  
 }
 
 /*--------------------------------------------------------------
@@ -2057,7 +2063,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: rgb(144, 49, 212);
+  background:#3e74c5;
   color: #fff;
   text-decoration: none;
 }
@@ -2649,4 +2655,7 @@ input {
   justify-content: center;
   align-items: center;
   text-align: right;
+}
+.card {
+  box-shadow: 0 4px 8px rgba(75, 12, 211, 0.1); /* This sets a shadow with 0px horizontal offset, 4px vertical offset, 8px blur radius, and 0.1 opacity */
 }
