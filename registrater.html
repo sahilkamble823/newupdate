@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/moneytrelogo.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -20,10 +20,11 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -56,7 +57,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          <!-- <li><a class="nav-link scrollto" href="about.html">About us</a></li> -->
+          <!-- <li><a class="nav-link scrollto active" href="about.html">About us</a></li> -->
           <li class="dropdown"><a href="#"><span>About us</span> </i></a>
             <ul>
               <li><a href="about.html">About Us</a></li>
@@ -64,7 +65,8 @@
               <li><a href="whyus.html">Why us</a></li>
             </ul>
           </li>
-          <li class="dropdown active"><a href="#"><span>Information Pack</span> </i></a>
+
+          <li class="dropdown "><a href="#"><span>Information Pack</span> </i></a>
             <ul>
               <li><a href="credentials.html">Wall of Appreciation</a></li>
               <li><a href="advisory.html">Onboard Advisors</a></li>
@@ -84,13 +86,13 @@
           </li>
 
 
+
           <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
           <li><a class="nav-link scrollto" href="feedback.html">Feedback</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
           <!-- <li><a class="nav-link scrollto" href="feedback.html"><h6>Register</h6></a></li> -->
-          <li><a class="nav-link scrollto" href="#"></a></li>
-          <li><a class="btn-get-started scrollto " href="login.html">Log In</a></li>
-
+          <li><a class="getstarted scrollto" href="login.html">Log in</a></li>
+          <li><a class="btn-get-started scrollto " href="registrater.html">Register</a></li>
 
 
         </ul>
@@ -102,84 +104,6 @@
     </div>
   </header><!-- End Header -->
 
-
-  <main id="main">
-    <div class="row">
-      <div class="col-lg-4"></div>
-
-      <div class="container">
-        <div class="main">
-          <div class="container mt-5">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <!-- <h1 class="logo me-auto " style="margin-bottom: 5px;"><a href="index.html">Moneytre</a></h1> -->
-                <div class="card">
-                  <div class="card-body">
-                    <h1>Registration</h1>
-
-                    <form action="">
-                      <label for="first">Enter Name:</label>
-                      <input type="text" id="first" name="first" placeholder="Enter your name" required>
-
-                      <label for="email">Email:</label>
-                      <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-
-
-                      <label for="password">Password:</label>
-                      <input type="password" id="password" name="password" placeholder="Enter your password"
-                        pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" required title="Password must contain at least one number,  
-                                   one alphabet, one symbol, and be at  
-                                   least 8 characters long">
-                        <div class="text-center"><button type="submit">Register</button></div>
-                    </form>
-
-                  </div>
-                </div>
-              </div>
-
-              <br><br>
-            </div>
-
-
-          </div>
-          <script src="script.js"></script>
-
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <script>
-    function validateForm() {
-
-      var password = document.getElementById("password").value;
-
-      if (password.length < 8) {
-        alert("Password must be at least 8 characters long");
-        return false;
-      }
-
-
-      return true;
-    }
-  </script>
-
-
-  <!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
-    <div class="container">
-     
-      
-      
-      <div class="copyright">
-        &copy; Copyright <strong><span></span></strong>. All Rights Reserved
-      </div>
-   
-    </div>
-  </footer> -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -191,39 +115,33 @@
             <p>
               201, Vilux Redefine,
               Deccan Gymkhana, Pune 411004.<br><br>
-              <strong>Phone:</strong>+91 74109 12161<br>
+              <strong>Phone:</strong>+91 - 74109 12161<br>
               <strong>Email:</strong>hkot3@yahoo.com<br>
             </p>
           </div>
 
-
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="whyus.html">Why Us</a></li> -->
+
               <li><i class="bx bx-chevron-right"></i> <a href="terms-of-use.html">Terms of Use</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="privacy-policy.html">Privacy Policy</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="disclaimer.html">Disclaimer</a></li>
-
-
-            </ul>
+                  </ul>
           </div>
 
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="advisory.html">Advisory</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="faqs.html">FAQs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="knowledge.html">Knowledge</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blogs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="credentials.html">Credentials</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="archives.html">Archives</a></li>
-            </ul>
-          </div> -->
+      
 
 
-
+          <!-- 
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Feedback </h4>
+            <p>Please provide your valueable Feedback.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+ -->
 
 
         </div>
