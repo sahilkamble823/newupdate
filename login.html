@@ -29,7 +29,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <style>
+    /* Optional styling for the sign-in button */
+    #google-signin-button {
+      margin-top:10px;
+    }
+    #underline{
+      
+    }
+  </style>
 
 
 </head>
@@ -157,6 +165,12 @@
         <div class="register"style="display: flex; justify-content: center;" >
           <span>Don't have an account? <a href="registrater.html" class="link signup-link">SignUp</a></span>
         </div>
+        <br>
+        <div class="register"style="display: flex; justify-content: center;" >
+          <span><a href="registrater.html" class="link signup-link">OR</a></span>
+        </div>
+
+        <div id="google-signin-button" style="display: flex; justify-content: center;"></div>
 
       </div>
     </section>
@@ -176,6 +190,40 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://apis.google.com/js/platform.js?onload=renderGoogleSignInButton" async defer></script> 
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  
+  <script>
+    // Function called when Google API is loaded
+    function onGoogleSignIn(googleUser) {
+      // Handle successful sign-in
+      var profile = googleUser.getBasicProfile();
+      console.log('ID: ' + profile.getId()); // Do something with the user's ID
+      console.log('Name: ' + profile.getName()); // Do something with the user's name
+      console.log('Image URL: ' + profile.getImageUrl()); // Do something with the user's profile image URL
+      console.log('Email: ' + profile.getEmail()); // Do something with the user's email
+    }
+
+    // Function called when sign-in fails
+    function onGoogleSignInFailure(error) {
+      console.error('Google Sign-In failed:', error);
+    }
+
+    // Render the Google sign-in button
+    function renderGoogleSignInButton() {
+      gapi.signin2.render('google-signin-button', {
+        'scope': 'profile email',
+        'width': 200,
+        'height': 40,
+        'longtitle': true,
+        'theme': 'light',
+        'onsuccess': onGoogleSignIn,
+        'onfailure': onGoogleSignInFailure
+      });
+    }
+  </script>
+
 </body>
 
 </html>

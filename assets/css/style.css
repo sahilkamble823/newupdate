@@ -1904,13 +1904,12 @@ section {
   padding: 10px 12px;
 }
 
-.register .container {
 
-}
 @media screen and (min-width: 500px) {
   #register .container {
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: center;
 
     
   }
@@ -1919,7 +1918,7 @@ section {
 .register .php-email-form button[type=submit] {
   background: indigo;
   border: 0;
-  padding: 10px 100px;
+  padding: 10px 20%;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
