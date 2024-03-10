@@ -1,4 +1,3 @@
-
 body {
   font-family: "work sans";
   font-size: medium;
@@ -12,7 +11,7 @@ a {
 }
 
 a:hover {
-  color:  rgb(144, 49, 212);
+  color: rgb(144, 49, 212);
   text-decoration: none;
 }
 
@@ -24,7 +23,7 @@ h5,
 h6 {
   font-family: "work sans", ;
   line-height: 1.5;
- 
+
 }
 
 /*--------------------------------------------------------------
@@ -53,7 +52,7 @@ h6 {
 
 .back-to-top:hover {
   /* background: #78c48c; */
-  color:  rgb(144, 49, 212);
+  color: rgb(144, 49, 212);
 }
 
 .back-to-top.active {
@@ -80,7 +79,7 @@ h6 {
 
 #topbar .contact-info a:hover {
   /* color: indigo; */
-  color:  rgb(144, 49, 212);
+  color: rgb(144, 49, 212);
 }
 
 #topbar .contact-info i {
@@ -112,6 +111,7 @@ h6 {
   /* color: indigo; */
   color: white;
 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -217,6 +217,7 @@ h6 {
   margin: 15px 0 0 0;
   padding: 0;
 }
+
 /**
 * Desktop Navigation 
 */
@@ -234,7 +235,7 @@ h6 {
 
 .navbar li {
   position: relative;
-  
+
 }
 
 .navbar a,
@@ -290,29 +291,29 @@ h6 {
   color: #fff;
 }
 
-.navbar .btn-get-started{
+.navbar .btn-get-started {
   color: #fff;
   background: indigo;
 }
 
 .navbar .btn-get-started,
-.navbar .btn-get-started:focus{
+.navbar .btn-get-started:focus {
   color: #fff;
   padding: 8px 25px;
-  margin-left:15px;
+  margin-left: 15px;
   margin-right: 15px;
   border-radius: 4px;
   /* border: 2px solid indigo; */
   border: 2px solid indigo;
   transition: 0.3s;
   font-size: 14px;
-  
+
 }
 
 
 .navbar .btn-get-started,
 
-.navbar .btn-get-started:hover{
+.navbar .btn-get-started:hover {
   color: #fff;
   background: indigo;
 }
@@ -499,7 +500,7 @@ h6 {
 #hero {
   width: 100%;
   height: 60vh;
-  background: linear-gradient(-90deg,white,indigo);
+  background: linear-gradient(-90deg, white, indigo);
   overflow: hidden;
   position: relative;
 }
@@ -517,12 +518,13 @@ h6 {
   left: 0;
   bottom: 0;
 }
+
 /* 
 #hero .carousel-item::before {
   content: "";
   background-color: rgba(45, 103, 60, 0.8);
 } */
-#hero.container{
+#hero.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -532,6 +534,7 @@ h6 {
   left: 50px;
   right: 50px;
 }
+
 #hero .carousel-container {
   display: flex;
   justify-content: center;
@@ -552,9 +555,16 @@ h6 {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700;
-   margin-top: 90px; 
-   padding: 100px;
-  justify-content: center;
+  padding-top: 100px;
+  padding-left: 20px;
+  margin-top: 60px;
+  /* padding: 100px; */
+  /* margin-top: 100px; 
+   margin-left: 90px; */
+  /* padding-left: 100px;
+   padding-right: 100px; */
+  justify-content: start;
+  text-align: start;
   /* margin: 100px; */
 
 }
@@ -568,8 +578,9 @@ h6 {
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
- 
+
 }
+
 /* 
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
@@ -648,13 +659,13 @@ h6 {
   /* background: #6ec083; */
   /* background: white; */
   /* background: indigo; */
-  
+
 
 }
 
 .custom-img {
   max-width: 100%;
-  max-height: 80vh; 
+  max-height: 80vh;
   width: auto;
   height: auto;
 
@@ -674,8 +685,19 @@ h6 {
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
+
+
+
   }
 }
+
+@media screen and (min-width: 500px) {
+  #hero h2 {
+    padding-left: 100px;
+    
+  }
+}
+
 /* 
 @media (min-width: 1024px) {
 
@@ -704,7 +726,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -715,6 +737,7 @@ section {
   padding-bottom: 20px;
   position: relative;
 }
+
 .section-title h3 {
   font-size: 24px;
   font-weight: bold;
@@ -745,6 +768,7 @@ section {
   bottom: 0;
   left: calc(50% - 20px);
 }
+
 .section-title h3::after {
   content: "";
   position: absolute;
@@ -830,7 +854,7 @@ section {
   font-size: 20px;
   padding-right: 4px;
   /* color: indigo; */
-  color:indigo;
+  color: indigo;
 }
 
 .about .content p:last-child {
@@ -1036,6 +1060,7 @@ section {
 .blog-details .sidebar .search-form form button:hover {
   background: grey;
 }
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -1169,8 +1194,8 @@ section {
 }
 
 /* .services .icon-box:hover { */
-  /* border-color: #fff; */
-  /* border-color: indigo;
+/* border-color: #fff; */
+/* border-color: indigo;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 } */
 
@@ -1199,7 +1224,7 @@ section {
 
 .services .iconbox-orange:hover .icon path {
   /* fill: #ffa76e; */
-  fill:indigo;
+  fill: indigo;
 }
 
 .services .iconbox-pink i {
@@ -1314,6 +1339,7 @@ section {
     justify-content: flex-end;
   }
 }
+
 /* -----------------------------------------------
 #Trainer
 ----------------------------------------------- */
@@ -1358,7 +1384,7 @@ section {
 
 .trainers .member img {
   margin: -1px -1px 10px -1px;
-} 
+}
 
 
 .trainers .member .member-content {
@@ -1745,7 +1771,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background:indigo;
+  background: indigo;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1813,6 +1839,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 .card-body {
   padding: 0 20px 20px 20px;
 }
@@ -1826,7 +1853,7 @@ section {
   margin-top: 30px;
   color: #fff;
   width: 100%;
-  background: linear-gradient(-90deg,white,indigo);
+  background: linear-gradient(-90deg, white, indigo);
   overflow: hidden;
   position: relative;
 }
@@ -1867,7 +1894,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color:  rgb(144, 49, 212);
+  color: rgb(144, 49, 212);
   content: "/";
 }
 
@@ -1879,7 +1906,7 @@ section {
   font-size: 14px;
   /* background: #eef0ef; */
   background: rgb(213, 213, 213);
-  
+
 }
 
 #footer .footer-top {
@@ -1952,7 +1979,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color:  rgb(144, 49, 212);
+  color: rgb(144, 49, 212);
   /* color: #5fcf80; */
 }
 
@@ -2035,7 +2062,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background:  rgb(144, 49, 212);
+  background: rgb(144, 49, 212);
   color: #fff;
   text-decoration: none;
 }
@@ -2302,7 +2329,7 @@ section {
 }
 
 .blog-details .sidebar .search-form form {
-  background:white;
+  background: white;
   border: 1px solid grey;
   padding: 3px 10px;
   position: relative;
@@ -2584,5 +2611,5 @@ section {
 
 .blog-details .comments .reply-form .btn-primary:hover {
   color: black;
-  background-color: rgb(144, 49, 212) ;
+  background-color: rgb(144, 49, 212);
 }
